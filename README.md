@@ -14,7 +14,7 @@ The second command builds an image with a jekyll site you already created. Make 
 ## running your jekyll server
 After your image was created you can run the server the following way:
 ```bash
-docker run -it --rm --name <container_name> -p "4000:<host port>" <imagename[:tag]>
+docker run -it --rm --name <container_name> -p "<host port>:4000" <imagename[:tag]>
 ```
 
 ## example
