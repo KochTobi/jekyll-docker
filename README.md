@@ -20,6 +20,6 @@ docker run -it --rm --name <container_name> -p "<host port>:4000" <imagename[:ta
 ## example
 ```bash
 docker build -t jekylldocker .
-docker run -it --name myserverinstance -p "4000:8080" jekylldocker
+docker run -it --name myserverinstance -p "8080:4000" jekylldocker
 ```
 You can then reach your site under [localhost:8080](http://localhost:8080)
