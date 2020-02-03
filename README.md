@@ -25,4 +25,4 @@ docker run -it --rm --name <container_name> -p "4000:4000" -v $PWD:/home/jekyll/
 docker build -t jekylldocker .
 docker run -it --name myserverinstance -p "4000:4000" jekylldocker
 ```
-You can then reach your site under [0.0.0.0:4000](http://0.0.0.0:4000) or use [localhost](http:0.0.0.0:4000) as an entrypoint.
+You can then reach your site under [0.0.0.0:4000](http://0.0.0.0:4000) or use [localhost](http:localhost:4000) as an entrypoint.
