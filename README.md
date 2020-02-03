@@ -19,7 +19,7 @@ docker run -it --rm --name <container_name> -p "<host port>:4000" <imagename[:ta
 Alternatively, if you want to use a host directory:
 ```bash
 docker run -it --rm --name <container_name> -p "4000:4000" -v $PWD:/home/jekyll/site <imagename[:tag]>
-
+```
 ## example
 ```bash
 docker build -t jekylldocker .
